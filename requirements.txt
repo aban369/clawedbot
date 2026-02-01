@@ -1,0 +1,73 @@
+# Core Dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+pandas==2.1.4
+numpy==1.26.2
+
+# Exchange APIs
+ccxt==4.2.0
+python-binance==1.0.19
+bybit==0.2.15
+
+# MetaTrader 5
+MetaTrader5==5.0.45
+
+# Machine Learning & AI
+tensorflow==2.15.0
+torch==2.1.2
+scikit-learn==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.0
+
+# Technical Analysis
+ta-lib==0.4.28
+pandas-ta==0.3.14b0
+
+# Data Processing
+scipy==1.11.4
+statsmodels==0.14.1
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.0
+dash==2.14.2
+
+# Notifications
+python-telegram-bot==20.7
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Database
+sqlalchemy==2.0.23
+pymongo==4.6.1
+
+# Utilities
+pyyaml==6.0.1
+colorlog==6.8.0
+tqdm==4.66.1
+schedule==1.2.0
+
+# API & Webhooks
+fastapi==0.108.0
+uvicorn==0.25.0
+websockets==12.0
+
+# Google AI
+google-generativeai==0.3.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Async Support
+aiohttp==3.9.1
+asyncio==3.4.3
+
+# Risk Management
+quantlib==1.32
+
+# Performance
+numba==0.58.1
