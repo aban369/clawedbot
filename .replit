@@ -1,0 +1,13 @@
+run = "python main.py"
+language = "python3"
+entrypoint = "main.py"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["python3", "main.py"]
+deploymentTarget = "cloudrun"
+
+[env]
+PYTHONPATH = "${PYTHONPATH}:${REPL_HOME}"
